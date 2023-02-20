@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+.bg-white {
+    background-color: rgb(240, 205, 163);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 7px 13px 37px rgb(238, 235, 235);
+}
+h3{
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tipo-letra{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    width: 100%;
+}

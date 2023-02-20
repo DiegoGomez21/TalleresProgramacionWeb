@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#result{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+#titulo{
+    margin-top: 100px;
+}
+
+form .form-group{
+    position: relative;
+}
+
+form .form-group input{
+    padding: 12px 0px 12px 22px;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+form .form-group svg{
+    position: absolute;
+    top:18px;
+    margin-left: 92%;
+}
+
+#boton{
+    margin-left: 45%;
+}
+
+img{
+    position: relative;
+    width: 150px; float: left; padding: 15px
+}
+
+h1{
+    position: relative;
+}
+
+h5{
+    position: relative;
+}

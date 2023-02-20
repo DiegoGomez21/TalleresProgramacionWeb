@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="min-heigth-full flex items-center justify-center bg-black">
+        <form>
+            <div class="w-96 p-6 shadow-lg bg-white rounded-md">
+                <div>
+                    <h1 class="text-3xl block text-center font-semibold">Registro Automovil</h1>
+                </div>
+                <div>
+                    <label for="input-id" class="block text-base mb-2 mt-3">Identificador</label>
+                    <input type="number" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-id" placeholder="identificador del Usuario" />
+                </div>
+                <div>
+                    <label for="input-modelo" class="block text-base mb-2 mt-3">Modelo</label>
+                    <input type="text" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-modelo" placeholder="Modelo" />
+                </div>
+                <div>
+                    <label for="input-anio" class="block text-base mb-2 mt-3">Añio</label>
+                    <input type="date" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-anio"  />
+                </div>
+                <div>
+                    <label for="input-detalle" class="block text-base mb-2 mt-3">Detalle</label>
+                    <input type="text" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-modelo" placeholder="Detalle" />
+                </div>
+                <div>
+                    <label for="input-caja" class="block text-base mb-2 mt-3">Caja</label>
+                    <input type="number" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-caja" placeholder="caja" />
+                </div>
+                <div>
+                    <label for="input-motor" class="block text-base mb-2 mt-3">Motor</label>
+                    <input type="text" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-motor" placeholder="Cilindraje motor" />
+                </div>
+                <div>
+                    <label for="input-fechapub" class="block text-base mb-2 mt-3">Fecha de publicacion</label>
+                    <input type="date" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-fechapub" />
+                </div>
+                <div>
+                    <label for="input-precio" class="block text-base mb-2 mt-3">Precio</label>
+                    <input type="text" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-precio" placeholder="Precio vehiculo" />
+                </div>
+                <div>
+                    <label for="input-moneda" class="block text-base mb-2 mt-3">Moneda</label>
+                    <input type="text" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="input-moneda" placeholder="Moneda" />
+                </div>
+                <div class="form-group">
+                    <label for="paises" class="block text-base mb-2 mt-3">Tipo de combustible</label>
+                    <select id="paises" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" aria-label="Default select example">
+                        <option value="Elegir" id="Elegir">------------</option>
+                        <option value="Corriente" id="COR">Corriente</option>
+                        <option value="Extra" id="EXT">Extra</option>
+                        <option value="Disel" id="DIL">Disel</option>
+                        <option value="Gas licuado" id="GASL">Gas licuado</option>
+                        <option value="Gas natural" id="GASN">Gas natural</option>
+                        <option value="Electrico" id="Elt">Electrico</option>               
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="paises" class="block text-base mb-2 mt-3">Tipo de coche</label>
+                    <select id="paises" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" aria-label="Default select example">
+                        <option value="Elegir" id="Elegir">------------</option>
+                        <option value="SUV" id="SUV">SUV</option>
+                        <option value="Hatchback" id="HAT">Hatchback</option>
+                        <option value="Crossover" id="CRVR">Crossover</option>
+                        <option value="Convertible" id="CNVR">Convertible</option>
+                        <option value="Sedan" id="SED">Sedan</option>
+                        <option value="Deportivo" id="SPTC">Deportivo</option>
+                        <option value="Coupe" id="CUP">Coupe</option>
+                        <option value="Minivan" id="MINV">Minivan</option>
+                        <option value="Station Wagon" id="STWG">De vagon</option>
+                        <option value="Camioneta pickup" id="CMPK">Pickup</option>               
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="paises" class="block text-base mb-2 mt-3">Estado</label>
+                    <select id="paises" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" aria-label="Default select example">
+                        <option value="Elegir" id="Elegir">------------</option>
+                        <option value="Normal" id="NOMR">Normal</option>
+                        <option value="Siniestro" id="SINT">Siniestro</option>              
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="paises" class="block text-base mb-2 mt-3">Marca</label>
+                    <select id="paises" class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" aria-label="Default select example">
+                        <option value="Elegir" id="Elegir">------------</option>
+                        <option value="Toyota" id="TOYT">Toyota</option>
+                        <option value="interbrand" id="INTBR">Interbrand</option>
+                        <option value="mercedesbenz" id="MERBZ">MercedesBenz</option>
+                        <option value="bmw" id="BMW">BMW</option>
+                        <option value="tesla" id="Tsla">Tesla</option>
+                        <option value="nissan" id="Niss">Nissan</option>
+                        <option value="honda" id="HNDA">Honda</option>
+                        <option value="audi" id="AUDI">Audi</option>
+                        <option value="kia" id="KIA">Kia</option>
+                        <option value="hyundai" id="HYND">Hyundai</option>
+                        <option value="volkswagen" id="VLKW">Volkswagen</option>
+                        <option value="ford" id="FORD">Ford</option>
+                        <option value="porsche" id="PRCH">Porsche</option>            
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">1ra Descripcion del vehiculo</label>
+                    <textarea class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="exampleFormControlTextarea1"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">2da Descripcion del vehiculo</label>
+                    <textarea class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="exampleFormControlTextarea1"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">3ra Descripcion del vehiculo</label>
+                    <textarea class="border w-full text-base px-2 py-1 focus outline-none focus:ring-0 focus:border-gray-600" id="exampleFormControlTextarea1"></textarea>
+                </div>
+                <button type="submit" class="border-2 mb-2 mt-3 px-2 py-1 bg-sky-700 text-white">Enviar</button>
+            </div>  
+        </form>
+    </main>
+</body>
+</html>
